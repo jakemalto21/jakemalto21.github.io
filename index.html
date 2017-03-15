@@ -1,1 +1,128 @@
-Any text
+
+<style>
+.drpdown {
+    position: relative;
+}
+
+.drpdown-content {
+    position: absolute;
+    left:-999em; 
+    background-color: #e5e5e5;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 10;
+}
+
+.drpdown:hover .drpdown-content {
+    left: 3%;
+    display: block;
+}
+
+.inner-drpdown-1 {
+    position: relative;
+}
+
+.inner-drpdown-content-1{
+    position: absolute;
+    left:-999em; 
+    background-color: #d3d3d3;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 20px;
+    z-index: 10;
+}
+
+.inner-drpdown-1:hover .inner-drpdown-content-1 {
+    left: 25%;
+    display: block;
+}
+
+.inner-drpdown-2 {
+    position: relative;
+}
+
+.inner-drpdown-content-2{
+    position: absolute;
+    left:-999em;
+    background-color: #d3d3d3;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 20px;
+    z-index: 10;
+}
+
+.inner-drpdown-2:hover .inner-drpdown-content-2 {
+    left: 25%;
+    display: block;
+}
+
+@media only screen and (max-width: 800px){
+
+.inner-drpdown-1:hover .inner-drpdown-2:hover .inner-drpdown-content-1 .inner-drpdown-content-2 {
+  left: 30%;
+  padding: 15px 5px;
+  min-width: 120px;
+  }
+
+.drpdown:hover .drpdown-content {
+  left: -3%;
+  }
+}
+
+
+</style>
+
+
+<ul>
+	<li>Contracts</li>
+	<li>Home Loans</li>
+	<li>SBA Loans</li>
+  	<li class="drpdown">Structured Settlements
+	<ul class="drpdown-content">
+  	<li class="inner-drpdown-1">Companies
+  		<ul class="inner-drpdown-content-1">
+  			<br/>
+  			<li><a href="#" target="_blank">123 Lump Sum</a></li>
+  			<li><a href="#" target="_blank">Annuity Transfers, Ltd.</a></li>
+  			<li><a href="#" target="_blank">Campbell Financial Corp.</a></li>
+  			<li><a href="#" target="_blank">Capital Planning, Inc.</a></li>
+  			<li><a href="#" target="_blank">CBC Settlement Funding</a></li>
+  			<li><a href="#" target="_blank">Client First Settlement Funding</a></li>
+  			<li><a href="#" target="_blank">DRB Capital</a></li>
+  			<li><a href="#" target="_blank">EPS Settlements Group</a></li>
+  			<li><a href="#" target="_blank">Fairfield Funding</a></li>
+  			<li><a href="#" target="_blank">J.G. Wentworth</a></li>
+  			<li><a href="#" target="_blank">Liberty Settlement Funding</a></li>
+  			<li><a href="#" target="_blank">Millenium Settlements</a></li>
+  			<li><a href="#" target="_blank">Novation Settlement Solutions</a></li>
+  			<li><a href="#" target="_blank">Pat Farber's Structured Settlement</a></li>
+  			<li><a href="#" target="_blank">Senecaone</a></li>
+  			<li><a href="#" target="_blank">Settlement Capital Corp.</a></li>
+  			<li><a href="#" target="_blank">Stone Street Capital</a></li>
+  			<li><a href="#" target="_blank">Strategic Planners</a></li>
+  			<li><a href="#" target="_blank">Woodbridge Structured Funding, LLC</a></li>
+  			<li><a href="#" target="_blank">Mutual of Omaha</a></li>
+  			<li><a href="#" target="_blank">Pacific Life</a></li>
+  			<li><a href="#" target="_blank">Prudential</a></li>
+  			<li><a href="#" target="_blank">Stone Street</a></li>
+  			<li><a href="#" target="_blank">Strategic Capital</a></li>
+  			<li><a href="#" target="_blank">UBS Financial Services Inc.</a></li>
+  			<li><a href="#" target="_blank">Bradford Settlement Company</a></li>
+  			<li><a href="#" target="_blank">Creative Capital Inc.</a></li>
+  			<li><a href="#" target="_blank">Guardian Settlements, LLC</a></li>
+  			<li><a href="#" target="_blank">JMW Settlements</a></li>
+  			<li><a href="#" target="_blank">The McNay Group</a></li>
+  			<li><a href="#" target="_blank">Ringer Associates</a></li>
+  			<li><a href="#" target="_blank">4Structures.com</a></li>
+  		</ul>
+  	</li>
+  	<br/>
+  	<li class="inner-drpdown-2">General FAQ
+  		<ul class="inner-drpdown-content-2">
+  			<li><a href="#" target="_blank">-----------Coming Soon-----------</a></li>
+  		</ul>
+  	</li>
+  </ul>
+  </li>
+</div>
